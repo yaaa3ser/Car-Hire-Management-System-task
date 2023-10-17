@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS (assuming you are using Bootstrap for styling) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Customer Details</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Customer Details</h1>
+        <dl class="row">
+            <dt class="col-sm-3 text-right">Customer ID:</dt>
+            <dd class="col-sm-9">{{ customer.customer_id }}</dd>
+
+            <dt class="col-sm-3 text-right">Name:</dt>
+            <dd class="col-sm-9">{{ customer.name }}</dd>
+
+            <dt class="col-sm-3 text-right">Email:</dt>
+            <dd class="col-sm-9">{{ customer.email }}</dd>
+
+            <dt class="col-sm-3 text-right">Phone Number:</dt>
+            <dd class="col-sm-9">{{ customer.phone_number }}</dd>
+        </dl>
+    </div>
+</body>
+
+</html>
